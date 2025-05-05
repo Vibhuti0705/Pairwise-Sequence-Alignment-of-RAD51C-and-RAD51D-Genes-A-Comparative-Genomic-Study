@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Mon  5 May 2025 13:22:45
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20250505-132240-0217-65116534-p1m.asequence
+#    -bsequence emboss_needle-I20250505-132240-0217-65116534-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 395
+# Identity:     194/395 (49.1%)
+# Similarity:   194/395 (49.1%)
+# Gaps:          90/395 (22.8%)
+# Score: 931.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ---GACGTCA-CGCCGCACGCCCCAGC--GAGGGC-----GTGCGGAGTT     39
+                        ..||.|| |||.||.||.|||.||  |.||||     |.||||...|
+EMBOSS_001         1 GGAAGCGGCAGCGCGGCGCGACCCGGCGGGCGGGCTCTGGGCGCGGGAAT     50
+
+EMBOSS_001        40 --TGGCTGCTCCGGGGTTAGCAGGTGA--GCCTGCGATGCGCGGGAAGAC     85
+                       .|||.|.|||.|||...||.|.|||  .||.||..|.|.|..|..|.|
+EMBOSS_001        51 CCCGGCGGATCCCGGGCGGGCGGATGACCCCCAGCCCTACCCTTGGTGCC    100
+
+EMBOSS_001        86 GTTCCGCTTTGAAATGCAGCGGGATTTGGTGAGTTTCCCGCTGTCTCCAG    135
+                     |  ||.|.|       |..|               ||.| ||.|||||..
+EMBOSS_001       101 G--CCTCCT-------CCTC---------------TCTC-CTTTCTCCTC    125
+
+EMBOSS_001       136 CGG-TGCGGGTGAAGCTGGTGTCTGC--------GGGGTTCCAGACTGCT    176
+                     ||| .||..|.| .||..|||||..|        |||||       .|..
+EMBOSS_001       126 CGGCAGCCAGCG-CGCCTGTGTCCTCTCTAGGAAGGGGT-------AGGG    167
+
+EMBOSS_001       177 GAGGAACTCCTAGAGGTGAAACCCTCCGAGCTTAGCAAAGGTAACGACTC    226
+                     ||||..|..||.|||..|  ||||.|||.|..| ||..|.||.|||    
+EMBOSS_001       168 GAGGGGCGTCTGGAGAGG--ACCCCCCGCGAAT-GCCCACGTGACG----    210
+
+EMBOSS_001       227 CTGATGGCAAGCTGAGGC-ACACCGGCCGCCG----TCAGCGCCGC-CTC    270
+                      ||..|.|...|||.||| ...||||||..||    .||..|.||. |||
+EMBOSS_001       211 -TGCAGTCCCCCTGGGGCTGTTCCGGCCTGCGGGGAACATGGGCGTGCTC    259
+
+EMBOSS_001       271 AGTCTTCGTTCTCTCGCCTCGGCCTT-CAGC---------CCAG--TCTC    308
+                     ||. .|||..||.| |||..|||||| |.|.         ||||  ||||
+EMBOSS_001       260 AGG-GTCGGACTGT-GCCCTGGCCTTACCGAGGAGATGATCCAGCTTCTC    307
+
+EMBOSS_001       309 CGTTAGATTCTGCTTCCTCCCACGT--CCATGTTTACAGCGTGA-    350
+                     .| .||...|.|..||....||.||  ||..||.|.| |||||. 
+EMBOSS_001       308 AG-GAGCCACAGGATCAAGACAGGTGACCGGGTGTGC-GCGTGCC    350
+
+
+#---------------------------------------
+#---------------------------------------
